@@ -11,6 +11,5 @@
 #import "UILabel+MHInsets.h"
 #import "UIControl+MHAdd.h"
 #import "NSURLSession+MHAdd.h"
-#import "NSArray+MHSudoku.h"
 
 #endif /* MHCategory_h */
