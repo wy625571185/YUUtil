@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YUTool'
   s.version          = '0.0.1'
-  s.summary          = '自用工具类.'
+  s.summary          = '测试pods 使用.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 测试pods 使用.
                        DESC
 
   s.homepage         = 'https://github.com/wy625571185/YUUtil'
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Masonry', '~> 1.1.0'
+  
 end
