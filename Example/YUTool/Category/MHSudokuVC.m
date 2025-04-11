@@ -31,7 +31,7 @@
     }
 //    [containerView.subviews mas_distributeSudokuViewsWithFixedLineSpacing:10 fixedInteritemSpacing:10 warpCount:3 topSpacing:10 bottomSpacing:10 leadSpacing:10 tailSpacing:10];
 //    [containerView.subviews mas_distributeSudokuViewsWithFixedItemWidth:100 fixedItemHeight:80 warpCount:3 topSpacing:10 bottomSpacing:10 leadSpacing:10 tailSpacing:10];
-    [containerView.subviews mas_distributeSudokuViewsWithFixedItemWidth:100 fixedItemHeight:80 fixedLineSpacing:10 fixedInteritemSpacing:10 warpCount:3 topSpacing:10 bottomSpacing:10 leadSpacing:10 tailSpacing:10];
+//    [containerView.subviews mas_distributeSudokuViewsWithFixedItemWidth:100 fixedItemHeight:80 fixedLineSpacing:10 fixedInteritemSpacing:10 warpCount:3 topSpacing:10 bottomSpacing:10 leadSpacing:10 tailSpacing:10];
 }
 
 @end
