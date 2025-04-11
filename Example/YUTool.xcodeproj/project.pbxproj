@@ -24,8 +24,8 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9A48CC0C2DA8D99600F1CB5A /* MHSudokuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48CC0B2DA8D99600F1CB5A /* MHSudokuVC.m */; };
 		9A48CC0F2DA8D9AA00F1CB5A /* MHLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48CC0E2DA8D9AA00F1CB5A /* MHLabelVC.m */; };
-		9DB06581B1175924A77DDF9F /* libPods-YUTool_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E5A41E43A0ECD003102B13 /* libPods-YUTool_Example.a */; };
-		D2FEE70A29BB6E259D30C22B /* libPods-YUTool_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D4FFF94569BC10FBF10550 /* libPods-YUTool_Tests.a */; };
+		AFC505641C9E820A733EACEB /* Pods_YUTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961E8BDD5C4D3EE32A12C0D1 /* Pods_YUTool_Tests.framework */; };
+		E35611C1C749D56454D3EDC1 /* Pods_YUTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6429048271453DE157D3B1 /* Pods_YUTool_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15D4FFF94569BC10FBF10550 /* libPods-YUTool_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUTool_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		284461BB36C4F6494BCDABB3 /* Pods-YUTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-YUTool_Tests/Pods-YUTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		42E5A41E43A0ECD003102B13 /* libPods-YUTool_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUTool_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6429048271453DE157D3B1 /* Pods_YUTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4589B8119F39108E6BB18A7D /* Pods-YUTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YUTool_Tests/Pods-YUTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YUTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +63,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		961E8BDD5C4D3EE32A12C0D1 /* Pods_YUTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A48CC0A2DA8D99600F1CB5A /* MHSudokuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSudokuVC.h; sourceTree = "<group>"; };
 		9A48CC0B2DA8D99600F1CB5A /* MHSudokuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSudokuVC.m; sourceTree = "<group>"; };
 		9A48CC0D2DA8D9AA00F1CB5A /* MHLabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLabelVC.h; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9DB06581B1175924A77DDF9F /* libPods-YUTool_Example.a in Frameworks */,
+				E35611C1C749D56454D3EDC1 /* Pods_YUTool_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D2FEE70A29BB6E259D30C22B /* libPods-YUTool_Tests.a in Frameworks */,
+				AFC505641C9E820A733EACEB /* Pods_YUTool_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +140,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				42E5A41E43A0ECD003102B13 /* libPods-YUTool_Example.a */,
-				15D4FFF94569BC10FBF10550 /* libPods-YUTool_Tests.a */,
+				3F6429048271453DE157D3B1 /* Pods_YUTool_Example.framework */,
+				961E8BDD5C4D3EE32A12C0D1 /* Pods_YUTool_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,6 +225,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				D9153BE3FCD0C6F613881D21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,6 +244,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				98F34A8F111C7F25C5C21CF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,6 +317,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		98F34A8F111C7F25C5C21CF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUTool_Tests/Pods-YUTool_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YUTool_Tests/Pods-YUTool_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BC1A6B902EC4FED1F0CCE9C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,6 +355,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9153BE3FCD0C6F613881D21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUTool_Example/Pods-YUTool_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/YUTool/YUTool.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YUTool.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YUTool_Example/Pods-YUTool_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E52C3AFFA5D0CD0F1C2363C1 /* [CP] Check Pods Manifest.lock */ = {

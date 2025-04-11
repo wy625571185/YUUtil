@@ -2,8 +2,9 @@
 platform :ios, '15.0'
 
 target 'YUTool_Example' do
+  use_frameworks!
   
-  pod 'Masonry', '~> 1.1.0'
+  pod 'Masonry', :modular_headers => true
   
   pod 'YUTool', :path => '../'
 

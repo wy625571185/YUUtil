@@ -38,6 +38,11 @@ TODO: 测试pods 使用.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'Masonry'
+  
+  s.pod_target_xcconfig = {
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',  # 关键参数‌:ml-citation{ref="1" data="citationList"}
+    'DEFINES_MODULE' => 'YES'  # 强制声明模块化‌:ml-citation{ref="5" data="citationList"}
+  }
   
 end
