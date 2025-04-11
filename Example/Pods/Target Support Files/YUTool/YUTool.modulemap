@@ -1,0 +1,6 @@
+framework module YUTool {
+  umbrella header "YUTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

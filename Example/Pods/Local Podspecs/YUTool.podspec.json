@@ -1,0 +1,27 @@
+{
+  "name": "YUTool",
+  "version": "0.1.0",
+  "summary": "A short description of YUTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wy625571185/YUUtil",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yu": "625571185@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wy625571185/YUUtil.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YUTool/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
+    ]
+  }
+}

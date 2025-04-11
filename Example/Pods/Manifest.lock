@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - YUTool (0.1.0):
+    - Masonry (~> 1.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YUTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Masonry
+
+EXTERNAL SOURCES:
+  YUTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YUTool: 0ee5f9ae60a9a12bbcc60f2dc4a719091bd23399
+
+PODFILE CHECKSUM: a12bbecd73a1cc5c41760f5d105d5d8e2e6c8b8a
+
+COCOAPODS: 1.16.2
