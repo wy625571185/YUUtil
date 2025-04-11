@@ -5,8 +5,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Masonry (1.1.0)
-  - YUTool (0.0.1):
-    - Masonry (~> 1.1.0)
+  - YUTool (0.0.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -25,8 +24,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  YUTool: 18f95ca735f53c3487864885ae6486e5ec9d49a3
+  YUTool: 742a46bac062e91c78804f978a6900aa9d5e1893
 
-PODFILE CHECKSUM: 9e1601a731634fde5c3c1a5b1b539d29af2621c6
+PODFILE CHECKSUM: f43e007e3fb2346f4a2170ac99729326d776124e
 
 COCOAPODS: 1.16.2

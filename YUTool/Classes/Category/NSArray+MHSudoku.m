@@ -6,7 +6,7 @@
 //
 
 #import "NSArray+MHSudoku.h"
-#import "View+MASAdditions.h"
+#import <Masonry/Masonry.h>
 
 @implementation NSArray (MHSudoku)
 

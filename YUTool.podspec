@@ -38,10 +38,6 @@ TODO: 测试pods 使用.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Masonry', '~> 1.1.0'
-  s.subspec 'Masonry' do |ss|
-    ss.source_files = 'Pods/Masonry/**/*.{h,m}'
-    ss.module_map = 'Pods/Masonry/module.modulemap'
-  end
+  # s.dependency 'Masonry', '~> 1.1.0'
   
 end
