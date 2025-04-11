@@ -2,11 +2,11 @@
 platform :ios, '15.0'
 
 target 'YUTool_Example' do
-  use_frameworks!
+#  use_frameworks!
   
-  pod 'Masonry', :modular_headers => true
+  pod 'Masonry'
   
-  pod 'YUTool', :path => '../'
+  pod 'YUTool'#, :path => '../'
 
   target 'YUTool_Tests' do
     inherit! :search_paths

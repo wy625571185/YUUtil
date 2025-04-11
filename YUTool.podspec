@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YUTool'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '测试pods 使用.'
 
 # This description is used to generate tags and improve search results.
