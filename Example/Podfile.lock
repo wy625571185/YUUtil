@@ -10,22 +10,19 @@ PODS:
 DEPENDENCIES:
   - FBSnapshotTestCase
   - Masonry
-  - YUTool (from `../`)
+  - YUTool
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
     - Masonry
-
-EXTERNAL SOURCES:
-  YUTool:
-    :path: "../"
+    - YUTool
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YUTool: 742a46bac062e91c78804f978a6900aa9d5e1893
 
-PODFILE CHECKSUM: 74a6018dc60e3fb80f2f23799bf12863a31e6ad8
+PODFILE CHECKSUM: 5f95dd65c1c3fe4d76c885cf0d39d4bfff205a89
 
 COCOAPODS: 1.16.2
